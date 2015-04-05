@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^1.1.0",
     "forever-monitor": "^1.5.2",
     "twilio": "^1.11.1"
   }

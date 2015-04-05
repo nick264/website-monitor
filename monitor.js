@@ -44,5 +44,5 @@ config.forEach(function(conf) {
       sms.send('+16178380605', "Looks like the site for " + conf.url + " has changed!");
       clearInterval(timerId);
     });
-  }, 5000);
+  }, 1000 * 60 * 10);
 } );
